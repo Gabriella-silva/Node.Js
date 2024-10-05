@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Primeiro json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriella-silva/node.git"
+  },
+  "author": "Gabbie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabriella-silva/node/issues"
+  },
+  "homepage": "https://github.com/Gabriella-silva/node#readme"
+}
