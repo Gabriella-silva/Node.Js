@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Gabriella-silva/node/issues"
   },
-  "homepage": "https://github.com/Gabriella-silva/node#readme"
+  "homepage": "https://github.com/Gabriella-silva/node#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
 }
