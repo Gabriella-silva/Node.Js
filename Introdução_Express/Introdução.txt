@@ -1,0 +1,3 @@
+🍪🎀  Informações úteis para o meu repositório.  🍪🎀
+Frameworks facilitam seu trabalho, uma das ferramentas mais importantes ao se trabalhar com node.js é o Node Express.
+Ele é considerado uma ferramenta minimalista e não fullstack, pois suas aplicações são simlpes porém úteis.
