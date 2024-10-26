@@ -1,4 +1,4 @@
- var subtração =function (a,b){
+function subtração (a,b){
     return a-b;
 };
-module.exports = subtração;
+export default subtração

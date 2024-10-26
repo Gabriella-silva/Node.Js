@@ -1,17 +1,9 @@
-function soma (a,b){
-    return a+b;
-};
+import soma from "Soma.js";
+import multiplicação from "./Multiplicação.js";
+import divisão from "./Divisão.js";
+import subtração from "./Subtração.js";
 
-function subtração (a,b){
-    return a-b;
-};
-
-function divisão (a,b){
-    return a/b;
-};
-
-function multiplicação(a,b){
-    return a * b;
-};
-
-console.log(subtração(4,7));
+console.log(soma(2,3));
+console.log(multiplicação(2,3));
+console.log(divisão(2,3));
+console.log(subtração(2,3));

@@ -1,5 +1,4 @@
-var divisão = function (a,b){
+function divisão (a,b){
     return a/b;
 };
-
-module.exports = divisão;
+export default divisão;

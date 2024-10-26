@@ -1,5 +1,5 @@
 
-var multiplicação = function (a,b){
+function multiplicação(a,b){
     return a * b;
 };
- module.exports = multiplicação;
+ export default multiplicação;
