@@ -14,7 +14,9 @@ rotas.get("/persona/:hobbies/:favcolor/:mbti/:fav_animal", (req,res)=> {
     const { hobbies, favcolor,mbti,fav_animal } = req.params; // Acessa os parâmetros hobbies e favcolor
     res.send(req.params);
 });
-
+rotas.get("/teste",(req,res) => {
+    res.send("worldwidehandsome")
+});
 
 //CALLBACK FUNCTION, IF MY CODE ARE RIGHT THIS FUNCTION PRINT ME MY 
 //LOCALHOST
