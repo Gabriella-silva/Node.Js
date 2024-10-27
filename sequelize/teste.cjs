@@ -10,8 +10,9 @@ rotas.get("/bibi", (req,res)=> {
     res.send("and i love cats")
 });
 
-rotas.get("/name/:hobbies/:favcolor", (req,res)=> {
-    res.send(req.params)
+rotas.get("/persona/:hobbies/:favcolor/:mbti/:fav_animal", (req,res)=> {
+    const { hobbies, favcolor,mbti,fav_animal } = req.params; // Acessa os parâmetros hobbies e favcolor
+    res.send(req.params);
 });
 
 
