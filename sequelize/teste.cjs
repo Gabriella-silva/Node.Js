@@ -2,12 +2,18 @@ const express = require("express");
 const rotas = express();
 const Sequelize = require("sequelize");
 const handlebars = require('express-handlebars');
+
 //Config
  //Template Engines
  rotas.engine('handlebars',handlebars({defaultLayoult: 'main'}))
 rotas.set('view engine', 'handlebars')
-
-
+// connect mysql
+const Sequelize = require('sequelize');
+const { FORCE } = require('sequelize/lib/index-hints');
+const sequelize = new Sequelize('cadsystem','root', 'Gab@2007', {
+    host: "localhost",
+    dialect: 'mysql'
+});
 
 
  rotas.get("/", (req,res)=> {
