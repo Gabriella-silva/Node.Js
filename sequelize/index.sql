@@ -14,6 +14,14 @@ INSERT INTO users(nome,email,age) VALUES(
     
 );
 
+INSERT INTO newUsers(name,lastname,age,email) VALUES(
+    "MIMI",
+    "VI",
+    31,
+    "MIMI@MAIL"
+
+)
+
 INSERT INTO users(nome,email,age) VALUES(
     "emilly",
     "teste@gmail",
